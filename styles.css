@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html,body {
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	min-height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+	}
+body {
+	width: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: whitesmoke;
+	margin: auto;
+    min-height: 100vh;
+    min-width: 100%;
+	max-width: 500%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+/* Poppins, Inter */
+@media (min-width: 1240px) {
+	.container {
+		max-width: 1290px !important;
+		margin: auto !important;
+		height: 100%;
+	}
+}
+.container {
+	width: 100%;
+}
+
+/* navigation part */
+.navbar {
+	background-color: lightseagreen;
+    /* rgb(46, 105, 24) */
+	width: 99%;
+	border-bottom: 1px solid grey;
+	position: fixed;
+    opacity: 50px;
+	z-index: 500;
+}
+.navb {
+	padding: 15px;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.navl ul {
+	display: flex !important;
+	align-items: center;
+}
+.navl ul li a {
+	list-style: none;
+	font-size: 17px;
+	padding: 15px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+    font-weight: bold;
+
+}
+.navl ul li {
+	list-style: none;
+}
+.navl ul li a:hover {
+	color:rgb(223, 223, 55);
+	font-weight: 600;
+    border-bottom: 3px solid rgb(223, 223, 55);
+}
+.navl ul li .visited-link:visited {
+	color: magenta;
+	font-weight: 700;
+}
+/* navigation part */
+
+.hrs{
+	background-color: #F0F0F0;
+	box-shadow:lightseagreen 0px 0px 5px;
+	margin: 50px;
+	padding:30px;
+}
+.hrs:hover {
+	background-color: lightseagreen;
+	cursor: pointer;
+}
+
+.hrs h2{
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+
+.tbl{
+	padding-left: 50px;
+	margin-left: 10px;
+}
+
+.vertical {
+	border-left: 6px solid black;
+	height: 200px;
+	position:absolute;
+	left: 50%;
+}
+th, td {
+    border-right: 2px solid black;
+	padding-right: 50px;
+	padding-left: 30px;
+}
+
+.space{
+	padding-right: 60px;
+}
+
+/* home */
+#home{
+    /* margin: 170px; */
+    margin-top: 190px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom:90px;
+    text-align: right;
+    /* background-color:rgb(221, 221, 69); */
+	background-color:lightseagreen;
+    background-image: url(https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/255768953.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    padding: 70px;
+}
+h1{
+    text-align: center;
+}
+.titleh1{
+    padding-bottom: 30px;
+    padding-top: 130px;
+}
+#hh{
+    font-size: 40px;
+    padding-left: 560px;
+    text-align:center;
+}
+#pp{
+    margin-top:50px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#doctors{
+    margin-top: -50px;
+}
+
