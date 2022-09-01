@@ -321,3 +321,45 @@ hr{
 	margin-left: -70px;
 }
 
+/* FRONT AND BACK CARDS */
+.innerCard11{
+
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+}
+.front11{
+	text-align: center;
+	border-radius: 10px;
+	padding-left: 50px;
+}
+.front11 img{
+ align-items: center;
+border-radius: 10px  10px 0px 0px;
+}
+.front11 p{
+color: #5D5E61;
+font-weight: 500;
+}
+.back11 {
+display: flex;
+/* height: 200px; */
+flex-direction: column;
+/* background-color: lightseagreen; */
+justify-content: space-around;
+align-items: center;
+text-align: center;
+border-radius: 10px;
+color: rgb(16, 16, 16);
+font-weight: 400;
+transform: rotateY(180deg);
+}
+.front11, .back11{
+ position: absolute;
+
+ -webkit-backface-visibility: hidden;
+ backface-visibility: hidden;
+}
+.card11:hover .innerCard11{
+transform: rotateY(180deg);
+}
+
