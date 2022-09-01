@@ -16,3 +16,6 @@ By that they can give star rates and also give comment reviews. <br>The website 
 *Change Directory: [cd superTooth]<br>
 *Open index.html file on your browser
 
+# Live Page
+**********************************
+
