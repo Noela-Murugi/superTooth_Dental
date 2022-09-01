@@ -22,11 +22,10 @@ By that they can give star rates and also give comment reviews. <br>The website 
 # Live Page
 **********************************
 # Sample Screenshots
-Our Doctors
-Screenshot from 2022-09-01 15-23-19.png
+Our Doctors<br>
 
-Book Appointment
-Screenshot from 2022-09-01 15-23-49.png
+Book Appointment<br>
+
 # Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at [noela.murugi@student.moringaschool.com]
 
