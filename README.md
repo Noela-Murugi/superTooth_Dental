@@ -10,3 +10,9 @@ By that they can give star rates and also give comment reviews. <br>The website 
 *CSS<br>
 *JavaScript<br>
 *Json<br>
+# Setup instructions
+*Open the Terminal command line: [CTRL+ALT+T]<br>
+*Clone the repository: [git clone https://github.com/Noela-Murugi/superTooth.git]<br>
+*Change Directory: [cd superTooth]<br>
+*Open index.html file on your browser
+
