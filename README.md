@@ -23,8 +23,10 @@ By that they can give star rates and also give comment reviews. <br>The website 
 **********************************
 # Sample Screenshots
 Our Doctors<br>
+![Screenshot from 2022-09-01 15-23-19](https://user-images.githubusercontent.com/97957631/187915544-caca2a0b-7706-4919-9234-16b1e02da03a.png)
 
 Book Appointment<br>
+![Screenshot from 2022-09-01 15-23-49](https://user-images.githubusercontent.com/97957631/187915621-589f5d80-f014-4fe5-b3c5-4744118ee7dc.png)
 
 # Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at [noela.murugi@student.moringaschool.com]
