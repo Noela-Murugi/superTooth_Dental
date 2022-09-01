@@ -283,4 +283,19 @@ hr{
 	border-radius: 50px;
 }
 
+/* contact */
+#contact{
+	background-color:lightseagreen;
+	margin-top:30px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.contacts-map{
+	margin-right: 2000px;
+
+}
+.logo h3{
+	font-style: American Typewriter, serif;
+}
+
 
