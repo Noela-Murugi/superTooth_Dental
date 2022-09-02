@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Nate Rono",
-        "description": "Doctor Nate Rono is a Senior Dentist <br>and has been serving in the area for over 33 years. <br>Rating: 4 ⭐ rates",
+        "description": "Doctor Nate Rono is a Senior Dentist and has <br/> been serving in the area for over 33 years. <br/> Rating: 4 ⭐ rates",
         "image_url": "https://media.istockphoto.com/photos/portrait-of-smiling-handsome-black-dentist-doctor-with-digital-tablet-picture-id1325282081?b=1&k=20&m=1325282081&s=170667a&w=0&h=REva3PYSj0ctl4mevxRUwZ3_SZEG3fjJS3LKXiGbCJY=",
         "stars": 0,
         "reviews": [
@@ -14,7 +14,7 @@
       {
         "id": 2,
         "name": "Bianca Cheluget",
-        "description": "Doctor Bianca Cheluget is a Senior Dentist <br>and has been serving overraly for over 30 years  <br>Rating: 5 ⭐ rates",
+        "description": "Doctor Bianca Cheluget is a Senior Dentist <br>and has been serving overraly for over 30 years.<br>Rating: 5 ⭐ rates",
         "image_url": "https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/shutterstock_527791774.jpg",
         "stars": 0,
         "reviews": [
