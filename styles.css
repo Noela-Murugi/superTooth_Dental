@@ -204,6 +204,7 @@ h1{
     display: inline-block;
 	border-radius: 40px;
 
+
 }
 .jscards:hover {
 	box-shadow: grey 6px 2px 16px 0px;
@@ -230,6 +231,7 @@ h1{
     display: inline-block;
 	border-radius: 10px;
 	box-shadow:lightseagreen 0px 0px 5px;
+	margin-top: -500px;
 
 }
 
@@ -243,6 +245,7 @@ h1{
 }
 #doc-description{
 	margin-left:-500px;
+	align-items: center;
 
 }
 .rightc{
@@ -252,7 +255,7 @@ h1{
 
 #review-form button{
 	margin-top: 30px;
-	margin-left: 100px;
+	margin-left: 70px;
 }
 hr{
 	width:150px;
@@ -363,3 +366,20 @@ transform: rotateY(180deg);
 transform: rotateY(180deg);
 }
 
+#review-list{
+	background-color: whitesmoke;
+	padding-right: -70px;
+}
+#review-list li {
+	border-radius: 5px;
+	margin-right: -100px;
+	margin-bottom: 10px;
+	list-style: square;
+  }
+
+  .more{
+	margin-left: -30px;
+  }
+#doc-more{
+	margin-left: -300px;
+}

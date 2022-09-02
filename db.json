@@ -1,0 +1,97 @@
+{
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Nate Rono",
+        "description": "Doctor Nate Rono is a Senior Dentist <br>and has been serving in the area for over 33 years. <br>Rating: 4 ⭐ rates",
+        "image_url": "https://media.istockphoto.com/photos/portrait-of-smiling-handsome-black-dentist-doctor-with-digital-tablet-picture-id1325282081?b=1&k=20&m=1325282081&s=170667a&w=0&h=REva3PYSj0ctl4mevxRUwZ3_SZEG3fjJS3LKXiGbCJY=",
+        "stars": 0,
+        "reviews": [
+          "Great service! I like it!!",
+          "Very polite"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Bianca Cheluget",
+        "description": "Doctor Bianca Cheluget is a Senior Dentist <br>and has been serving overraly for over 30 years  <br>Rating: 5 ⭐ rates",
+        "image_url": "https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/shutterstock_527791774.jpg",
+        "stars": 0,
+        "reviews": [
+          "She is very good with color",
+          "Perfect"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Jerry Karuri",
+        "description": "Doctor Jerry Karuri is the Assistant Dentist<br> and has been serving here for over 3 years.<br>Rating: 3 ⭐ rates",
+        "image_url": "https://www.collinsdictionary.com/images/full/dentist_229576711.jpg",
+        "stars": 0,
+        "reviews": [
+          "Fast and great dentist"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sang Atieno",
+        "description": "Doctor Sang Atieno is a Dentist here and <br>has been working at superTooth for two years now.<br>Rating: 5 ⭐ rates",
+        "image_url": "https://marcusdblackdds.com/wp-content/uploads/2020/04/difference-between-endodontist-vs-dentist.jpg",
+        "stars": 0,
+        "reviews": [
+          "Wonderful"
+        ]
+      }
+    ],
+
+    "openingdets" : [
+
+        {
+            "id" : 1,
+            "day" : "MONDAY",
+            "time" : "8:00am - 6:00pm"
+        },
+
+        {
+            "id" : 2,
+            "day" : "TUESDAY",
+            "time" : "8:00am - 6:00pm"
+        },
+
+        {
+            "id" : 3,
+            "day" : "WEDNESDAY",
+            "time" : "8:00am - 6:00pm"
+        },
+
+        {
+            "id" : 4,
+            "day" : "THURSDAY",
+            "time" : "8:00am - 6:00pm"
+        },
+
+        {
+            "id" : 5,
+            "day" : "FRIDAY",
+            "time" : "8:00am - 5:00pm"
+        },
+
+        {
+            "id" : 6,
+            "day" : "SATURDAY",
+            "time" : "9:00am - 4:00pm"
+        },
+
+        {
+            "id" : 7,
+            "day" : "SUNDAY",
+            "time" : "Closed (Emergency only)"
+        },
+
+        {
+            "id" : 8,
+            "day" : "HOLIDAY",
+            "time" : "8:00am - 4:00pm"
+        }
+    ]
+  }
