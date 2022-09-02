@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .then((doc) => {
           document.querySelector('#doc-name').textContent = doc.name;
           document.querySelector('#doc-image').src = doc.image;
-          document.querySelector('#like-button').addEventListener('click', function (){
-              let countLike = document.querySelector('#like-count')
+          document.querySelector('#star-button').addEventListener('click', function (){
+              let countLike = document.querySelector('#star-count')
               doc.stars ++;
               countLike.textContent = `${doc.stars} stars`;
           })
