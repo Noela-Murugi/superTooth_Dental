@@ -9,8 +9,11 @@ By that they can give star rates and also give comment reviews. <br>The website 
 
 # Technologies Used
 *HTML<br>
+
 *CSS<br>
+
 *JavaScript<br>
+
 *Json<br>
 
 # Setup instructions
