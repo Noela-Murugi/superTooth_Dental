@@ -15,10 +15,14 @@ By that they can give star rates and also give comment reviews. <br>The website 
 
 # Setup instructions
 ```
-*Open the Terminal command line: [CTRL+ALT+T]<br>
-*Clone the repository: [git clone https://github.com/Noela-Murugi/superTooth_Dental.git]<br>
-*Change Directory: [cd superTooth]<br>
-*Open index.html file on your browser
+Open the Terminal command line: [CTRL+ALT+T]
+
+Clone the repository: [git clone https://github.com/Noela-Murugi/superTooth_Dental.git]
+
+Change Directory: [cd superTooth]
+
+Open index.html file on your browser
+
 ```
 # Live Page
 https://noela-murugi.github.io/superTooth_Dental/
