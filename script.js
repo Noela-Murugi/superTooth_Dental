@@ -1,4 +1,4 @@
-const apiLocalHost = "https://noela-murugi.github.io/JSON_API/db.json";
+const apiLocalHost = "https://my-json-server.typicode.com/noela-murugi/JSON_API";
 
 function getDocNameById(){
     fetch(`${apiLocalHost}/doctors`).then(resp=>resp.json()).then(docs=>{
