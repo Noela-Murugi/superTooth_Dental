@@ -1,7 +1,7 @@
-const apiLocalHost = "https://noela-murugi.github.io/superTooth_Dental/db.json";
+const apiLocalHost = "https://noela-murugi.github.io/JSON_API/db.json";
 
 function getDocNameById(){
-    fetch('https://noela-murugi.github.io/superTooth_Dental/db.json/doctors').then(resp=>resp.json()).then(docs=>{
+    fetch(`${apiLocalHost}/doctors`).then(resp=>resp.json()).then(docs=>{
         document.getElementById('doc-list').innerHTML = docs
         .map(doc=>`<li onClick="getDocDetails(${doc.id})">${doc.name}</li>`)
         .join('');
@@ -9,7 +9,7 @@ function getDocNameById(){
 }
 
 function getDocDetails(docId){
-    fetch(`https://noela-murugi.github.io/superTooth_Dental/db.json/doctors/${docId}`)
+    fetch(`${apiLocalHost}/doctors/${docId}`)
     .then(response=>response.json())
     .then(doc=>{
         console.log(doc);
@@ -42,7 +42,7 @@ function showAlert() {
 
 document.addEventListener('DOMContentLoaded', () => {
   function getImageDetails(id){
-      fetch (`https://noela-murugi.github.io/superTooth_Dental/db.json/doctors/${id}`)
+      fetch (`${apiLocalHost}/openingdets/${id}`)
       .then((res) => res.json())
       .then((doc) => {
           document.querySelector('#doc-name').textContent = doc.name;
