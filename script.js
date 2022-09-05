@@ -1,7 +1,7 @@
-const apiLocalHost = "http://localhost:3000";
+const apiLocalHost = "https://noela-murugi.github.io/superTooth_Dental/db.json";
 
 function getDocNameById(){
-    fetch('http://localhost:3000/doctors').then(resp=>resp.json()).then(docs=>{
+    fetch('https://noela-murugi.github.io/superTooth_Dental/db.json/doctors').then(resp=>resp.json()).then(docs=>{
         document.getElementById('doc-list').innerHTML = docs
         .map(doc=>`<li onClick="getDocDetails(${doc.id})">${doc.name}</li>`)
         .join('');
@@ -9,7 +9,7 @@ function getDocNameById(){
 }
 
 function getDocDetails(docId){
-    fetch(`http://localhost:3000/doctors/${docId}`)
+    fetch(`https://noela-murugi.github.io/superTooth_Dental/db.json/doctors/${docId}`)
     .then(response=>response.json())
     .then(doc=>{
         console.log(doc);
@@ -42,15 +42,15 @@ function showAlert() {
 
 document.addEventListener('DOMContentLoaded', () => {
   function getImageDetails(id){
-      fetch (`http://localhost:3000/doctors/${id}`)
+      fetch (`https://noela-murugi.github.io/superTooth_Dental/db.json/doctors/${id}`)
       .then((res) => res.json())
       .then((doc) => {
           document.querySelector('#doc-name').textContent = doc.name;
           document.querySelector('#doc-image').src = doc.image;
           document.querySelector('#star-button').addEventListener('click', function (){
-              let countLike = document.querySelector('#star-count')
+              let countStar = document.querySelector('#star-count')
               doc.stars ++;
-              countLike.textContent = `${doc.stars} stars`;
+              countStar.textContent = `${doc.stars} stars`;
           })
       })
   }
