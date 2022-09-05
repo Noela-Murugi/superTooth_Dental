@@ -1,7 +1,7 @@
 const apiLocalHost = "https://my-json-server.typicode.com/noela-murugi/JSON_API";
 
 function getDocNameById(){
-    fetch(`${apiLocalHost}/doctors`).then(resp=>resp.json()).then(docs=>{
+    fetch(`https://my-json-server.typicode.com/noela-murugi/JSON_API/doctors`).then(resp=>resp.json()).then(docs=>{
         document.getElementById('doc-list').innerHTML = docs
         .map(doc=>`<li onClick="getDocDetails(${doc.id})">${doc.name}</li>`)
         .join('');
@@ -9,7 +9,7 @@ function getDocNameById(){
 }
 
 function getDocDetails(docId){
-    fetch(`${apiLocalHost}/doctors/${docId}`)
+    fetch(`https://my-json-server.typicode.com/noela-murugi/JSON_API/doctors/${docId}`)
     .then(response=>response.json())
     .then(doc=>{
         console.log(doc);
